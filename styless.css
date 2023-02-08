@@ -1,0 +1,21 @@
+body{
+    background-color:  whitesmoke;
+}
+
+.img-row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .img-col {
+    flex: 100%;
+    padding: 4px 4px;
+  }
+  
+  .img-col img {
+    margin-top: 8px;
+    vertical-align: middle;
+    height: 250px;
+  }
